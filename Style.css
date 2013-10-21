@@ -1,0 +1,68 @@
+
+body
+{
+background-color:#CC0000;
+color:#000066;
+font-family: Verdana,Arial,sans-serif;
+}
+#header{
+  margin-left:50px;
+  padding-left:10px;
+  color:#fff;
+  height: 50px;
+}
+.background {
+  fill: none;
+  pointer-events: all;
+}
+
+#states {
+  fill: #000066;
+}
+
+#states .active {
+  fill: #0000FF;
+}
+
+#state-borders {
+  fill: none;
+  stroke: #FFF;
+  stroke-width: 1.5px;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  pointer-events: none;
+}
+
+.subunit-label {
+    fill: #FFF;
+    font-size: 9px;
+    font-weight: 30;
+    text-anchor: middle;
+}
+h2{
+	color:#fff;
+}
+img{
+	border-style:solid;
+border-color:#ff0000 #0000ff;
+}
+#intro{
+  margin-left:90px;
+  padding-left:120px;
+  padding-top:5px;
+  font-size: 16px;
+  color:#fff;
+  height: 50px;
+}
+#hint{
+padding-top:15px;
+}
+p.one 
+{
+background-color:#fff;
+border-style:solid;
+border-width:3px;
+border-color:#ccc;
+padding-left:10px;
+color:#CC0000;
+}
